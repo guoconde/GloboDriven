@@ -1,0 +1,180 @@
+body {
+    font-family: "encode sans";
+    border: 1px solid #f5f6f7;
+    width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 1250px;
+    margin: auto;
+  }
+  
+  .noticias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+  }
+  
+  .toolbar {
+    height: 80px;
+    margin: 20px auto 30px auto;
+  }
+  
+  .logoTop {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logoGlobo {
+    width: 150px;
+  }
+  
+  .canais {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+    font-weight: 700;
+    font-size: 19px;
+  }
+  
+  .esquerda {
+    width: 50%;
+  }
+  
+  .direita {
+    width: 47%;
+    margin-left: 30px;
+    border-left: 1px solid #ebedef;
+  
+    display: flex;
+}
+  
+  .principal {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 67px;
+    color: #c4160c;
+  
+    margin-bottom: 40px;
+  }
+  
+  .secundaria {
+    font-size: 18px;
+    color: #303134;
+  }
+  
+  .secUm,
+  .secDois {
+    margin-bottom: 10px;
+  }
+  
+  .cimaEsq,
+  .baixoEsq {
+    margin: 30px 0;
+    border-top: 1px solid #ebedef;
+    width: 640px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fotoEsq img {
+    width: 193px;
+    height: 110px;
+    border-radius: 10px;
+  
+    margin: 20px 30px 10px 0;
+  }
+  
+  .colunaEsq img,
+  .colunaDir img {
+    width: 240px;
+    height: 128px;
+    border-radius: 10px;
+  
+    margin: 0 35px 10px 35px;
+  }
+  
+  .colunaDir {
+    border-left: 1px solid #ebedef;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .notDirUmGeral,
+  .noDirDoisGeral,
+  .notDirTresGeral {
+    margin-bottom: 50px;
+  }
+  
+  .legEsq,
+  .legEsqB {
+    font-size: 15px;
+    font-weight: 500;
+    color: #c4160c;
+  }
+  
+  .legEsqB {
+    margin-top: 20px;
+  }
+  
+  .legDirEsp {
+    font-size: 15px;
+    font-weight: 500;
+    color: #07aa47;
+    margin-left: 30px;
+  }
+  
+  .notEsq,
+  .notEsqB {
+    width: 193px;
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 25px;
+  
+    color: #2f3134;
+  
+    margin: 10px 0;
+  }
+  
+  .notDirEsp {
+    width: 240px;
+    font-size: 18.5px;
+    font-weight: 700;
+    line-height: 25px;
+  
+    color: #2f3134;
+  
+    margin: 10px 0 0 30px;
+  }
+  
+  .sintEsq,
+  .sintEsqB {
+    width: 193px;
+    font-size: 14px;
+    line-height: 19px;
+  
+    color: #2f3134;
+  
+    margin: 10px 0;
+  }
+  
+  .sintDirEsp {
+    width: 240px;
+    font-size: 14px;
+    line-height: 19px;
+  
+    color: #2f3134;
+  
+    margin: 10px 0 0 30px;
+  }
+  
